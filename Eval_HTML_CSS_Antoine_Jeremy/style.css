@@ -1,0 +1,193 @@
+@font-face {
+    font-family: font1;
+    src: url(./fonts/LiberationSans-Regular-webfont.ttf);
+}
+@font-face {
+    font-family: fontbold;
+    src: url(./fonts/LiberationSans-Bold-webfont.ttf);
+}
+
+*{
+    font-family: font1, sans-serif;
+    font-size: 18px;
+}
+/* Bordure a supprimer */
+.tour{
+    border: 2px solid #256845;
+}
+.tour1{
+    border: 2px solid #9e0202;
+}
+
+/* ************************ HEADER ******************************/
+header{
+    background: url(./images/background.jpg) repeat ;
+    height: 15vh;
+    width: 100%;
+    min-width: 577px;
+}
+.headcontainer{
+    min-width: 540px;
+    max-width: 66vw;
+    margin : 0 auto;
+    height: 12vh;
+}
+.tete{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 12vh;
+    padding-top: 15px;
+}
+
+.contlogo{
+    height: 100%;
+    
+}
+
+.contlogo span{
+    color: rgb(234, 159, 5);
+}
+
+.logo{
+    margin-bottom: 18px;
+    height: 50px;
+}
+.navi{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.navbarre{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.navbarre p{
+    margin-left: 10px;
+}
+
+/* ************************* Main  ******************************/
+main{
+    background-color: rgba(28,28,28,1) ;
+}
+
+.maincontainer{
+    min-width: 540px;
+    max-width: 66vw;
+    margin : 0 auto;
+    height: 123vh;
+}
+
+.bg{
+    background: url(./images/header-page-catalogue.png) center;
+    height: 320px;
+}
+
+.grille {
+    height: 80vh;
+    background-color: rgba(243,243,243,1);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.case{
+    height: 213px;
+    width: 200px;
+    background-color: #fff;
+}
+
+.case img{
+    height: 180px;
+    width: 200px;
+    vertical-align: bottom;
+}
+
+.case p{
+    font-size: 0.5rem;
+    font-family: 'font2';
+    text-align: center;
+}
+
+.gant1{
+    margin: 0 0 0 70px;
+    ;
+}
+
+.gant2{
+    margin: 0 70px 0 0;
+}
+
+.attrib{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    align-items: center;
+    background-color: rgba(243,243,243,1);
+    height: 21px;
+    width: 201px;
+    text-decoration: none;
+}
+.vente{
+    width: 75px;
+    height: 15px;
+    color: #fff;
+    background: linear-gradient( rgba(53,53,53,1), rgba(29,29,29,1));
+    text-align: center;
+    font-size: 0.55rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.oldprice{
+    text-decoration-line: line-through ;
+    color: #404040;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0px 10px;
+}
+
+.newprice{
+    color: #e3a11e;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+/* ************************ Footer ******************************/
+footer{
+    background-color: #373737;
+}
+
+.footcontainer{
+    min-width: 540px;
+    max-width: 66vw;
+    margin : 0 auto;
+    height: 50vh;
+}
+.secfoot1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 60%;
+
+
+}
+.footcase{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 26px;
+    font-size: 7px;
+    color: #fff;
+}
+/* ************************************** MEDIA QUERY WIDTH < 577px ************************************** */
+@media only screen and (max-width: 577px) {
+    
+
+}
